@@ -357,7 +357,7 @@
         </object>
         <object placeholders="1" c4Name="RestoFlow CRM" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JEaa9BAKcY9uR2Oyhdcc-9">
           <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeWidth=3;" vertex="1">
-            <mxGeometry height="1310" width="2020" x="-1135" y="345" as="geometry" />
+            <mxGeometry height="1375" width="2020" x="-1135" y="345" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" id="JEaa9BAKcY9uR2Oyhdcc-11">
@@ -452,7 +452,7 @@
         </mxCell>
         <object placeholders="1" c4Name="Green API" c4Type="Software System" c4Description="бесплатный WhatsApp API для рассылки " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JEaa9BAKcY9uR2Oyhdcc-23">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="-400" y="1815" as="geometry" />
+            <mxGeometry height="120" width="240" x="-400" y="1985" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" id="6kT6tMjjkqKARE8s3eX_-1">
@@ -465,7 +465,7 @@
         </object>
         <mxCell id="6kT6tMjjkqKARE8s3eX_-2" connectable="0" parent="6kT6tMjjkqKARE8s3eX_-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отправка кода пользователю через WhatsApp" vertex="1">
           <mxGeometry relative="1" x="0.7508" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="9" y="39" as="offset" />
           </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="Учетные системы (1C / Bitrix24)" c4Type="Software System" c4Description="Системы, куда улетают данные после закрытия счета." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="je4EZXZfc_jSq3K9RAjW-1">
@@ -486,14 +486,179 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <object placeholders="1" c4Type="Relationship" id="zDyGN51uB5MQmoHnDO_x-2">
+          <mxCell edge="1" parent="1" source="OBIbJ8Ewqhpfm_uiP-2f-2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="h8yjtZDkiiik5sDbVZf3-3">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <Array as="points">
+                <mxPoint x="-295" y="1600" />
+                <mxPoint x="675" y="1600" />
+              </Array>
+              <mxPoint x="-50" y="1240" as="sourcePoint" />
+              <mxPoint x="190" y="1240" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="zDyGN51uB5MQmoHnDO_x-3" connectable="0" parent="zDyGN51uB5MQmoHnDO_x-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Хранение телефон : код&amp;nbsp;&lt;div&gt;для отправки через Notification Service&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.7283" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" id="zDyGN51uB5MQmoHnDO_x-4">
+          <mxCell edge="1" parent="1" source="h8yjtZDkiiik5sDbVZf3-3" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="OBIbJ8Ewqhpfm_uiP-2f-1">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <Array as="points">
+                <mxPoint x="675" y="1665" />
+                <mxPoint x="-960" y="1665" />
+              </Array>
+              <mxPoint x="630" y="1730" as="sourcePoint" />
+              <mxPoint x="870" y="1730" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="zDyGN51uB5MQmoHnDO_x-5" connectable="0" parent="zDyGN51uB5MQmoHnDO_x-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Слушаем топик для хранение кодов" vertex="1">
+          <mxGeometry relative="1" x="0.9429" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" id="zDyGN51uB5MQmoHnDO_x-6">
+          <mxCell edge="1" parent="1" source="OBIbJ8Ewqhpfm_uiP-2f-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="JEaa9BAKcY9uR2Oyhdcc-23">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="-875" y="1385" as="sourcePoint" />
+              <mxPoint x="-635" y="1385" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="zDyGN51uB5MQmoHnDO_x-7" connectable="0" parent="zDyGN51uB5MQmoHnDO_x-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отправляем код на WhatsApp пользователя" vertex="1">
+          <mxGeometry relative="1" x="0.8453" y="4" as="geometry">
+            <mxPoint x="-42" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="S1QYwoPdOwK2eHpllG9p" name="Components">
-    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2064" dy="1314" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="System name" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="nEMxxHGyp1PPwb_Tw90o-1">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="2020" width="2750" x="-340" y="-140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Auth &amp; Identity Service" c4Type="Container" c4Technology="SpringBoot, ElasticSearch, Redis" c4Description="Хранит данные пользователей, номера телефонов и выдает JWT токены." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="JaP7ZKsGY5KGToyAg_tH-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="-300" y="-25" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="" c4Type="SystemScopeBoundary" c4Application="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JaP7ZKsGY5KGToyAg_tH-2">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="1010" width="1475" x="20" y="-60" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="OTP service" c4Type="Component" c4Technology="e.g. Spring Service" c4Description="сервис для генерации 4-x значного кода" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="o9gRKL5HfjzCLvPdFntA-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="95" y="270" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="AuthController" c4Type="Component" c4Technology="e.g. Spring Service" c4Description="Контроллер для аутенфикации в систему" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="o9gRKL5HfjzCLvPdFntA-2">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="95" y="-25" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" id="o9gRKL5HfjzCLvPdFntA-3">
+          <mxCell edge="1" parent="1" source="o9gRKL5HfjzCLvPdFntA-2" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="o9gRKL5HfjzCLvPdFntA-1">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="185" y="185" as="sourcePoint" />
+              <mxPoint x="425" y="185" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="o9gRKL5HfjzCLvPdFntA-4" connectable="0" parent="o9gRKL5HfjzCLvPdFntA-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="При регистрации генерируем код" vertex="1">
+          <mxGeometry relative="1" x="0.4531" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="СУБД для кэша" c4Type="Container" c4Technology="Redis" c4Description="Кэшированные неизменяемые, часто используемые данные" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Nv5JH3T1uucTNMddfCmL-1">
+          <mxCell parent="1" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
+            <mxGeometry height="120" width="240" x="95" y="485" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="СУБД брокера сообщений" c4Type="Container" c4Technology="Apache Kafka" c4Description="Брокер сообщений для бизнес процессов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="LlWyRM26xTyMjX_loHA2-1">
+          <mxCell parent="1" style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
+            <mxGeometry height="120" width="240" x="435" y="485" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" id="LlWyRM26xTyMjX_loHA2-2">
+          <mxCell edge="1" parent="1" source="o9gRKL5HfjzCLvPdFntA-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="LlWyRM26xTyMjX_loHA2-1">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="275" y="415" as="sourcePoint" />
+              <mxPoint x="515" y="415" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="LlWyRM26xTyMjX_loHA2-5" connectable="0" parent="LlWyRM26xTyMjX_loHA2-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Храним в топике чтобы Notification сервис&amp;nbsp;&lt;div&gt;прослушивал&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.6762" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" id="LlWyRM26xTyMjX_loHA2-3">
+          <mxCell edge="1" parent="1" source="o9gRKL5HfjzCLvPdFntA-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Nv5JH3T1uucTNMddfCmL-1">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="275" y="415" as="sourcePoint" />
+              <mxPoint x="515" y="415" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="LlWyRM26xTyMjX_loHA2-4" connectable="0" parent="LlWyRM26xTyMjX_loHA2-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Хранит телефон : код для будущей проверки" vertex="1">
+          <mxGeometry relative="1" x="0.0827" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Notification Service" c4Type="Container" c4Technology="SpringBoot / ElasticSearch" c4Description="Отправляет разные виды уведомлении" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="_919KdEWB8iVzyMnTU-h-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="435" y="705" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" id="_919KdEWB8iVzyMnTU-h-3">
+          <mxCell edge="1" parent="1" source="_919KdEWB8iVzyMnTU-h-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="LlWyRM26xTyMjX_loHA2-1">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="655" y="750" as="sourcePoint" />
+              <mxPoint x="895" y="750" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="_919KdEWB8iVzyMnTU-h-4" connectable="0" parent="_919KdEWB8iVzyMnTU-h-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Подслушивает топик" vertex="1">
+          <mxGeometry relative="1" x="0.0714" y="-5" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Green API" c4Type="Software System" c4Description="бесплатный WhatsApp API для рассылки " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="8zg4zJ7TgwhzFrAKSyCw-1">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#647687;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#314354;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="435" y="1045" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" id="8zg4zJ7TgwhzFrAKSyCw-2">
+          <mxCell edge="1" parent="1" source="_919KdEWB8iVzyMnTU-h-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="8zg4zJ7TgwhzFrAKSyCw-1">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="590" y="875" as="sourcePoint" />
+              <mxPoint x="830" y="875" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="8zg4zJ7TgwhzFrAKSyCw-3" connectable="0" parent="8zg4zJ7TgwhzFrAKSyCw-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Отправляет код на WhatsApp пользователя" vertex="1">
+          <mxGeometry relative="1" x="0.5779" y="2" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" id="8zg4zJ7TgwhzFrAKSyCw-6">
+          <mxCell edge="1" parent="1" source="JaP7ZKsGY5KGToyAg_tH-1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="o9gRKL5HfjzCLvPdFntA-2">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="-235" y="185" as="sourcePoint" />
+              <mxPoint x="5" y="185" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
